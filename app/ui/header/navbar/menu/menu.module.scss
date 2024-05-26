@@ -1,0 +1,29 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    .menu_links{
+        font-size: 1.6rem;
+        margin-left: 5.6rem;
+        display: flex;
+        gap: 5.6rem;
+        align-items: center;
+        list-style: none;
+        text-shadow: 0px 5px 7px rgba(0,0,0,0.34);
+        line-height: 23px;
+        .dropdown{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 5px;
+            .down_arrow {
+                margin-left: 0.8rem;
+              
+            }
+        }
+
+    }
+    .logo {
+        text-shadow: 0px 5px 7px rgba(0,0,0,0.34);
+    }
+   
+}
