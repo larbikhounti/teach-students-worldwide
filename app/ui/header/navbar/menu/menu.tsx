@@ -1,12 +1,12 @@
 
 import styles from "./menu.module.scss";
 import Image from "next/image";
-import { roboto } from '@/app/ui/fonts';
+import { robotoRegular } from '@/app/ui/fonts';
 export default function Menu() {
   return (
     <div className={styles.menu}>
         <Image className={styles.logo} alt="logo" src="/Logo-colored.svg" height={35} width={103} />
-        <ul className={`${styles.menu_links} ${roboto.className}`}>
+        <ul className={`${styles.menu_links} ${robotoRegular.className}`}>
             <li>Products</li>
             <li>Solutions</li>
             <li>Pricing</li>
