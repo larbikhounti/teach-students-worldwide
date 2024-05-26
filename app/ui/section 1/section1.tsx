@@ -22,7 +22,7 @@ export default function SectionOne() {
       <div className={styles.tools}>
       <Image
         alt="desktop"
-        src="./section1/tools/app-one.svg"
+        src="./section1/tools/App-one.svg"
         width={64}
         height={64}
       />
@@ -46,7 +46,7 @@ export default function SectionOne() {
       />
         <Image
         alt="desktop"
-        src="./section1/tools/app-five.svg"
+        src="./section1/tools/App-five.svg"
         width={64}
         height={64}
       />
