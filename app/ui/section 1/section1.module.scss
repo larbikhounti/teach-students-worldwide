@@ -1,0 +1,27 @@
+.main{
+    background-color: #F1F5F9;
+    height: 100vh;
+    text-align: center;
+    padding-top: 8rem;
+    height: fit-content;
+    padding-bottom: 8rem;
+    .title {
+        font-size: 5.6rem;
+        line-height: 110%;
+        color: #0F172A;
+    }
+    .description{
+        font-size: 2rem;
+        line-height: 180%;
+        color: #0F172A;
+        margin-top: 3.2rem;
+        margin-bottom: 8rem;
+    }
+    .tools{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 7.3rem;
+        margin-top: 8rem;
+    }
+}
