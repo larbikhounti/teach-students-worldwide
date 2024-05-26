@@ -15,7 +15,7 @@ export default function SectionOne() {
       </p>
       <Image
         alt="desktop"
-        src="./section1/desktop.svg"
+        src="./section1/Desktop.svg"
         width={1100}
         height={640}
       />
