@@ -1,0 +1,32 @@
+.main{
+    background-color: white;
+        height: 100vh;
+        display: flex;
+        height: 100vh;
+        padding-top: 8rem;
+        gap: 8rem;
+        border: 1px solid black;
+
+ 
+    .left_side{
+        width: 100%;
+        display: flex;
+        .column_images{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            .first_image{
+                align-self: flex-end;
+            }
+        }
+
+       
+    }
+    .right_side{
+        width: 100%;
+        height: fit-content;
+        height: 100%;
+      
+    }
+    
+}

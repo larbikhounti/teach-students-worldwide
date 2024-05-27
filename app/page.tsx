@@ -3,6 +3,7 @@ import Hero from "./ui/header/hero/hero";
 import NavBar from "./ui/header/navbar/navbar";
 import SectionOne from "./ui/section 1/section1";
 import SectionTwo from "./ui/section2/section2";
+import SectionThree from "./ui/section3/section3";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Hero/>
       <SectionOne/>
       <SectionTwo/>
+      <SectionThree/>
     </main>
 
   );
