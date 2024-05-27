@@ -2,6 +2,7 @@ import styles from "./section2.module.scss";
 import { robotoRegular, robotoExtraBold } from "@/app/ui/fonts";
 import Image from "next/image";
 import Link from "next/link";
+import Plan from "../components/plan/plan";
 export default function SectionTwo() {
   return (
     <div className={styles.main}>
@@ -23,7 +24,9 @@ export default function SectionTwo() {
       <div className={styles.right_side}>
         <Image className={styles.video} alt="video" src="./section2/video.svg" width={600} height={391} />
         <div className={styles.plan_cards}>
-            <div className={styles.plan_cards}></div>
+              <Plan color="#6B21A8"  Labelcolor="#F3E8FF" label="Featured" title="The map of mathematics" description="Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse." />
+              <Plan color="#1E40AF" Labelcolor="#DBEAFE" label="Popular" title="Design for how people think" description="Aliquam ut euismod condimentum elementum ultricies volutpat sit non. " />
+              <Plan color="#166534" Labelcolor="#DCFCE7" label="New" title="International & commercial law" description="Molestie integer eu arcu, mauris bibendum rhoncus imperdiet dui. " />
         </div>
         
       </div>
