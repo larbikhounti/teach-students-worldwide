@@ -1,0 +1,20 @@
+.general{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 2.4rem;
+    color: white;
+    text-align: start;
+    width: 100%;
+    
+    .category{
+        font-size: 1.6rem;
+        line-height: 110%;
+    }
+    .subcategory{
+        font-size: 1.6rem;
+        line-height: 140%;
+        list-style: none;
+       
+    }
+}
