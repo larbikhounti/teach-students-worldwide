@@ -6,7 +6,7 @@ import Plan from "../components/plan/plan";
 export default function SectionTwo() {
   return (
     <div className={styles.main}>
-      <Image className={styles.babble} alt="babble" src="./section2/babble.svg"   layout='fill' objectFit='contain' />
+
       <div className={styles.left_side}>
       <h1 className={`${styles.title}  ${robotoExtraBold.className}`}>An all-in-one app<br/> that makes it easier</h1>
         <ul className={styles.unordered_list}>
@@ -22,6 +22,7 @@ export default function SectionTwo() {
       </div>
 
       <div className={styles.right_side}>
+        <Image className={styles.babble} alt="babble" src="./section2/babble.svg"   width={506.18} height={448.01}  />
         <Image className={styles.video} alt="video" src="./section2/video.svg" width={600} height={391} />
         <div className={styles.plan_cards}>
               <Plan color="#6B21A8"  Labelcolor="#F3E8FF" label="Featured" title="The map of mathematics" description="Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse." />

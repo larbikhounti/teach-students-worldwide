@@ -4,6 +4,7 @@ import NavBar from "./ui/header/navbar/navbar";
 import SectionOne from "./ui/section 1/section1";
 import SectionTwo from "./ui/section2/section2";
 import SectionThree from "./ui/section3/section3";
+import SectionFour from "./ui/section4/section4";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <SectionOne/>
       <SectionTwo/>
       <SectionThree/>
+      <SectionFour/>
     </main>
 
   );
