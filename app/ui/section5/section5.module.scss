@@ -1,5 +1,4 @@
 .main {
-  height: 77.9rem;
   position: relative;
   width: 100%;
   display: flex;
@@ -7,12 +6,15 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+  height: 100vh;
  .people_image{
-  height: max-content!important;
+  position: absolute;
   z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
  }
  .title{
-
   font-size: 5.6rem;
   line-height: 110%;
  }

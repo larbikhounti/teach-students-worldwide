@@ -1,9 +1,7 @@
-import styles from "./section6.module.scss";
-import { robotoRegular, robotoExtraBold } from "@/app/ui/fonts";
+import styles from "./footer.module.scss";
 import Image from "next/image";
-import Link from "next/link";
 import General from "../components/general/general";
-export default function SectionSix() {
+export default function Footer() {
 
   const links =[
     {
