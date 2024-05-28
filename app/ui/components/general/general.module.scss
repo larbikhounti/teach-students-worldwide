@@ -15,6 +15,17 @@
         font-size: 1.6rem;
         line-height: 140%;
         list-style: none;
+        display: flex;
+        gap: 1rem;
+        .beta{
+            background-color: #F3E8FF;
+            color: #6B21A8;
+            padding-top: 0.2rem;
+            padding-left: 0.8rem;
+            padding-right: 0.8rem;
+            width: fit-content;
+            border-radius: 6px;
+        }
        
     }
 }
