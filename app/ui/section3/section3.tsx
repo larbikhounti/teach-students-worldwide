@@ -25,8 +25,8 @@ export default function SectionThree() {
       </div>
 
       <div className={styles.right_side}>
-      <h1>Meet international students & teachers</h1>
-        <p>Morbi sit egestas dignissim pharetra, sed amet. Tempus justo senectus risus ac vel, velit, nunc. Eget commodo eget in aliquam facilisi facilisi nec magna hendrerit. Placerat ipsum sit tellus urna, faucibus aenean lorem faucibus integer.</p>
+      <h1 className={`${styles.title} ${robotoExtraBold.className}`}>  <Image className={styles.plane_departure}  alt="plane departure" src="./section3/plane-departure.svg" width={64} height={62} />Meet international<br/> students & teachers</h1>
+        <p className={`${styles.description} ${robotoRegular.className}`}>Morbi sit egestas dignissim pharetra, sed amet. Tempus justo senectus risus ac vel, velit, nunc. Eget commodo eget in aliquam facilisi facilisi nec magna hendrerit. Placerat ipsum sit tellus urna, faucibus aenean lorem faucibus integer.</p>
         <div className={styles.call_action}>
         <Link className={styles.action_phrase} href="#">Find more about the app </Link>
         <Image alt="right arrow" src="./section2/right-arrow.svg" width={14} height={13.31} />
