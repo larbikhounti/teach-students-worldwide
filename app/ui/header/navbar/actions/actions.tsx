@@ -6,7 +6,7 @@ export default function Actions() {
   return (
     <div className={styles.actions}>
         <Link className={styles.login} href='#'> Log In</Link>
-        <Link className={styles.signup} href='#'> Sign Up Now</Link>
+        <Link className={styles.signup} href='/signup'> Sign Up Now</Link>
   
     </div>
   );
