@@ -1,0 +1,17 @@
+.main{
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: fit-content;
+    .form{
+        padding: 5rem;
+        .title{
+            font-size: 4.2rem;
+            line-height: 120%;
+            margin-top: 2rem;
+        }
+    }
+    
+}
