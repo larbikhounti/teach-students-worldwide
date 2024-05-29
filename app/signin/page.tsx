@@ -14,9 +14,8 @@ export default function Home() {
         <Image  className={styles.img} alt="students" width={984} height={800} src="/signin/sea.png" />
         <div className={styles.form}>    
             <Image alt="logo colored" src="/Logo-colored.svg" width={103} height={35}/>
-            <h1 className={`${styles.title} ${robotoBold.className} `} >happy to see you here</h1>
+            <h1 className={`${styles.title} ${robotoBold.className} `} >Welcome</h1>
             <form  action={signin}>
-                <Input label="Full name" type="text"  />
                 <Input label="Email" type="email"  />
                 <Input label="Password" type="password"  />
                 <Signup/>
