@@ -8,11 +8,28 @@
     .form{
         padding: 5rem;
         width: 100%;
+        gap: 2rem;
 
         .title{
             font-size: 4.2rem;
             line-height: 120%;
             margin-top: 2rem;
+        }
+        .forget{
+            font-size: 2rem;
+            text-decoration: none;
+            
+        }
+        .signin{
+            margin-top: 2rem;
+            text-align: center;
+            font-size: 3rem;
+            
+            max-width: 30rem;
+            padding: 2rem;
+            background-color:#EA580C;
+            color: white;
+            
         }
     }
     

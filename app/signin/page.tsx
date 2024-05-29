@@ -4,7 +4,7 @@ import styles from "./page.module.scss";
 import { robotoBold } from "../ui/fonts";
 import Input from "../ui/components/inputs/input";
 import Signup from "../ui/components/signup/signup";
-
+import Link from "next/link";
 export default function Home() {
     function signin(form:any) {
         console.log("form")
@@ -15,10 +15,11 @@ export default function Home() {
         <div className={styles.form}>    
             <Image alt="logo colored" src="/Logo-colored.svg" width={103} height={35}/>
             <h1 className={`${styles.title} ${robotoBold.className} `} >Welcome</h1>
-            <form  action={signin}>
+            <form   >
                 <Input label="Email" type="email"  />
                 <Input label="Password" type="password"  />
-                <Signup/>
+                <Link className={`${styles.forget}`} href="/forget">Forget password?</Link>
+                <div className={`${styles.signin} ${robotoBold.className}`}>Sign in</div>
             </form>
         </div>
     </main>
